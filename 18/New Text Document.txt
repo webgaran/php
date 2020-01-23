@@ -1,0 +1,9 @@
+INSERT INTO users VALUES (null, "mr master", "mr", "mrmaster@gmail.com", password("123456"));
+
+INSERT INTO users (fullname,username,email,password) VALUES ("reza rezapour", "reza", "reza@gmail.com", password("123456"));
+
+SELECT * FROM users;
+
+DELETE FROM users WHERE id=2;
+
+UPDATE users SET username="reza2" WHERE id=4;

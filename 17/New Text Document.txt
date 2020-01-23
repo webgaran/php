@@ -1,0 +1,20 @@
+mysql -u root -p
+set password for root@localhost = password('123456');
+SHOW DATABASES;
+CREATE DATABASE php;
+USE php;
+SHOW TABLES;
+DROP DATABASE PHP;
+
+CREATE TABLE users ( id int PRIMARY KEY auto_increment, 
+fullname varchar(60) not null, 
+username varchar(60) not null, 
+email varchar(110) not null, 
+password varchar(255) not null );
+
+DESCRIBE users;
+DROP TABLE users;
+
+ALTER TABLE users 
+modify username varchar(50) not null;
+

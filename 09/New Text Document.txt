@@ -1,0 +1,8 @@
+while ( list( $key , $value ) = each($array) ) :
+array_pop();
+array_push();
+array_shift();
+array_unshift();
+array_slice();
+array_filte();
+array_map();
